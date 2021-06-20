@@ -9,8 +9,7 @@ pipeline {
       stage('stage-1') {
          steps {
             echo "This is build number $BUILD_NUMBER of demo $DEMO"
-            echo "Using a multi-line shell step"
-            test.bat              
+            echo "Using a multi-line shell step"            
          }
       }
    }
