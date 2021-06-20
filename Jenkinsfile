@@ -10,7 +10,7 @@ pipeline {
          steps {
             echo "This is build number $BUILD_NUMBER of demo $DEMO"
             echo "Using a multi-line shell step"
-            test.cmd              
+            test.bat              
          }
       }
    }
